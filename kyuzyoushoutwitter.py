@@ -5,14 +5,14 @@ from apiclient.errors import HttpError
 import tweepy
 import datetime
 
-CK="APIkey"
-CS="APIkeysecret"
-AT="Accesstoken"
-AS="Accesstokensecret"
+CK = "APIkey"
+CS = "APIkeysecret"
+AT = "Accesstoken"
+AS = "Accesstokensecret"
 
-DEVELOPER_KEY = 'youtubeAPI'
-YOUTUBE_API_SERVICE_NAME = 'youtube'
-YOUTUBE_API_VERSION = 'v3'
+DEVELOPER_KEY = "youtubeAPI"
+YOUTUBE_API_SERVICE_NAME = "youtube"
+YOUTUBE_API_VERSION = "v3"
 
 wd = datetime.date.today().weekday()
 
